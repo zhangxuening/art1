@@ -1,0 +1,261 @@
+/*
+ * 参考案例地址：
+ * http://ent.163.com/special/2015yulephoto_h5/#!/scene-1 
+ * 
+ * CSS3帧动画地址
+ * https://daneden.github.io/animate.css/
+ */
+
+/* 第一页 */
+.page1 {
+	width: 3.57rem;
+	height:6.67rem;
+	background: #daeef4;
+	background-size: cover;
+}  
+
+.page1 img {
+	position: absolute;
+}
+
+ .page1 img:nth-of-type(1) {
+	/* 所有样式以REM为单位：把测出来的PX除以100即可 */
+	 width: 4rem;
+	height:4rem;
+	/* left: 1.15rem;*/
+	top: .6rem; 
+}  
+
+.page1 img:nth-of-type(2) {
+	width: .89rem;
+	height: 1.53rem;
+	top: 4rem;
+	right: 0;
+}
+
+.page1 img:nth-of-type(3) {
+	width: 0.57rem;
+	height: 1.24rem;
+	right: 0;
+	top: 4.1rem;
+}
+.page1 span{
+	position:absolute;
+	top:5rem;
+	line-height: .3rem;
+	left: .2rem;
+	font-size: .18rem;
+	color: #255c4c;
+}
+
+
+/* PAGE2 */
+.page2 {
+	background: url(img/pa1-4.png) no-repeat;
+	background-size: cover;
+}
+
+.page2 img {
+	position: absolute;
+}
+
+.page2 img:nth-of-type(1) {
+	width: 3.75rem;
+	height: 6.67rem;
+	
+}
+.page2 img:nth-of-type(2){
+	width: .75rem;
+	height: 1.88rem;
+	top: .1rem;
+	left: .1rem;
+}
+.page2 span p:nth-of-type(1){
+	position: absolute;
+	top: 4.5rem;
+	right: .45rem;
+	font-size: .16rem;
+	border: 1px solid #daeef4;
+	background: #96daf6;
+	color: #255c4c;
+	
+}
+.page2 span p:nth-of-type(2){
+	position: absolute;
+	top: 5rem;
+	right: .75rem;
+	font-size: .18rem;
+	border: 1px solid #daeef4;
+	background: #96daf6;
+	color: #255c4c;
+}
+.page2 span p:nth-of-type(3){
+	position: absolute;
+	top: 5.5rem;
+	right: 1.15rem;
+	font-size: .2rem;
+	border: 1px solid #daeef4;
+	background: #96daf6;
+	color: #255c4c;
+}
+/* PAGE3 */
+.page3 {
+	 width: 3.57rem;
+	height:6.67rem; 
+	background: #daeef4;
+	background-size: cover;
+}  
+
+.page3 img {
+	position: absolute;
+}
+.page3 img:nth-of-type(1){
+	width: 2.7rem;
+	height: 4rem;
+	bottom: .1rem;
+	right:.1rem;
+}
+.page3 img:nth-of-type(2){
+	width: 1.8rem;
+	height: 3rem;
+	top: .5rem;
+	left: .1rem;
+}
+.page3 img:nth-of-type(3){
+	width: .79rem;
+	height: 2rem;
+	bottom: .7rem;
+	left: .1rem;
+}
+.page3 span p:nth-of-type(1){
+	position: absolute;
+	color: #255c4c;
+	top:1rem;
+	right: .5rem;
+    font-size: .16rem;
+}
+.page3 span p:nth-of-type(2){
+	position: absolute;
+	top: 1.5rem;
+	right: .15rem;
+	font-size: .12rem;
+}
+/* PAGE4 */
+.page4 {
+	width: 3.57rem;
+	height:6.67rem; 
+	background:#daeef4 ;
+	background-size: cover;
+}
+
+.page4 img {
+	position: absolute;
+}
+
+.page4 img:nth-of-type(1) {
+	width: 1.5rem;
+	height:1.5rem;
+	right: .2rem;
+	top: 1.5rem;
+	border-radius: .9rem;
+}
+.page4 img:nth-of-type(2) {
+	width: 3.6rem;
+	height:3rem;
+	left: .08rem;
+	bottom: .1rem;
+	
+}
+.page4 .font span:nth-of-type(1){
+	position: absolute;
+	color: #255c4c;
+	top:.7rem;
+	right: .45rem;
+	font-size: .18rem;
+	border:1px solid #255c4c;
+}
+.page4 .font span:nth-of-type(2){
+	position: absolute;
+	color: #255c4c;
+	top:1.1rem;
+	left: .1rem;
+	font-size: .15rem;
+	border:2px solid #255c4c;
+	border-radius: .2rem;
+	line-height: .45rem;
+}
+.page4 img:nth-of-type(3) {
+		width: .8rem;
+		height:2rem;
+		left: .2rem;
+		bottom: .3rem;
+		
+	}
+
+/* PAGE5 */
+.page5 {
+	width: 3.57rem;
+	height:6.67rem; 
+	background:#daeef4 ;
+	background-size: cover;
+	
+}
+
+.page5 img {
+	position: absolute;
+	border: 1px solid #255c4c;
+
+}
+
+.page5 img:nth-of-type(1) {
+	width:1.8rem;
+	height: 5rem;
+	top:.5rem;
+	right: .1rem;
+}
+.page5 img:nth-of-type(2) {
+	width:1.5rem;
+	height: 1.5rem;
+	border-radius: .9rem;
+	top:1.5rem;
+	left: .2rem;
+}
+.page5 img:nth-of-type(3) {
+	background: #e0eff3;
+	width:.5rem;
+	height:2rem;
+	top:3rem;
+	right: .3rem;
+}
+.page5 .font span:nth-of-type(1){
+	position: absolute;
+	color: #255c4c;
+	top:.7rem;
+	left: .45rem;
+	font-size: .18rem;
+	border:1px solid #255c4c;
+	 
+}
+.page5 .font span:nth-of-type(2){
+	position: absolute;
+	bottom: .5rem;
+	left: 0; 
+	font-size: .17rem;
+	line-height: .3rem;
+	border:2px solid #96daf6;
+}
+/* PAGE6 
+.page2 {
+	background: url(img/pa1-4.png) no-repeat;
+	background-size: cover;
+}
+
+.page2 img {
+	position: absolute;
+}
+
+.page2 img:nth-of-type(1) {
+	width: 3.75rem;
+	height: 6.67rem;
+	
+}*/
