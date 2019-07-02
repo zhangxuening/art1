@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    ul{
+        list-style: none;
+    }
+    img{
+        vertical-align: top;
+    }
+     .bannerImg{
+        width: 400%;
+    }
+    .bannerImg li{
+        width: 25%;
+        float: left;
+    }
+    .bannerImg li img{
+          width: 100%;
+    }
+    .banner{
+        overflow: hidden;
+        position: relative;
+    }
+    .bannerLeft{
+        width: 234px;
+        height: 460px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: #333;
+
+    }
+    .bannerLeft li{
+        line-height: 42px;
+        padding-left: 20px;
+    }
+    .bannerLeft li:hover{
+        background: orange;
+    }
+    .bannerLeft li a{
+        color: #fff;
+        text-decoration: none;
+    }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <ul class="bannerImg">
+                 <li>
+                     <a href="#">
+                         <img src="img/banner01.jpg" alt="">
+                     </a>
+                 </li>
+                 <li>
+                        <a href="#">
+                            <img src="img/banner02.jpg" alt="">
+                        </a>
+                    </li>
+                 <li>
+                        <a href="#">
+                            <img src="img/banner03.jpg" alt="">
+                        </a>
+                    </li>
+                 <li>
+                        <a href="#">
+                            <img src="img/banner04.jpg" alt="">
+                        </a>
+                    </li>
+        </ul>
+        <ul class="bannerLeft">
+            <li><a href="#">手机 电话卡</a></li>
+            <li><a href="#">电视 盒子</a></li>
+            <li><a href="#">笔记本 平板</a></li>
+            <li><a href="#">家电 插线板</a></li>
+            <li><a href="#">出行 穿戴</a></li>
+            <li><a href="#">智能 路由器</a></li>
+            <li><a href="#">电源 配件</a></li>
+            <li><a href="#">健康儿童</a></li>
+            <li><a href="#">手机电话卡</a></li>
+            <li><a href="#">手机电话卡</a></li>
+            <li><a href="#">手机电话卡</a></li>
+        </ul>
+    </div>
+</body>
+</html>
