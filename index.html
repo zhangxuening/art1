@@ -1,286 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <!--
-        相对路径：
-        分析当前文档与资源的一个关系
-        同一级时：直接写资源名称
-        下一级：/
-        上一级：../
-        绝对路径:https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1561538123775&di=
-        c61d4f2c3f5a408a4fe6eae372d40c58&imgtype=0&src=http%3A%2F%2Fpic.syd.com.cn%2F0%2F100%2F72%2F68%2F100726839_
-        00000000171c5904.jpg
-      -->
-    <link rel="stylesheet" href="css/reset.css">
+    <link rel="icon" href="img/favicon.png">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/main.main.css">
+    <script >
+        window.CONFIG={
+            CON:{
+                DIRECTION:'vertical',
+                EFFECT:'slide'
+            },
+            MUSIC:'sourse/zhui.mp3',
+            DESW:375
+        };
+        </script>
 </head>
-
 <body>
-    <div class="header">
-        <div class="main clearfix">
-            <ul class="nav">
-                <li><a href="#">小米商城</a></li>
-                <li><a href="#">MIUI</a></li>
-                <li><a href="#">LOT</a></li>
-                <li><a href="#">云服务</a></li>
-                <li><a href="#">金融</a></li>
-                <li><a href="#">有品</a></li>
-                <li><a href="#">小爱开放平台</a></li>
-                <li><a href="#">企业团购</a></li>
-                <li><a href="#">资质证照</a></li>
-                <li><a href="#">协议规则</a></li>
-                <li><a href="#">下载app</a></li>
-                <li><a href="#">Select Region</a></li>
-            </ul>
-            <div class="buyCar">
-                <span>购物车</span>
-                <div class="detail">购物车中还没有商品,赶紧选购</div>
-            </div>
-            <ul class="login">
-                <li><a href="">登录</a></li>
-                <li><a href="">注册</a></li>
-                <li><a href="">消息通知</a></li>
-            </ul>
-        </div>
-    </div>
-    <header class="headerBottom main clearfix">
-        <h1 class="fl"><a href="#">小米</a></h1>
-        <!-- ul.nav>(li>a)*9 -->
-        <ul class="nav fl">
-            <li><a href="#">小米手机</a></li>
-            <li><a href="#">Redmi</a></li>
-            <li><a href="#">电视</a></li>
-            <li><a href="#">笔记本</a></li>
-            <li><a href="#">家电</a></li>
-            <li><a href="#">路由器</a></li>
-            <li><a href="#">智能软件</a></li>
-            <li><a href="#">服务</a></li>
-            <li><a href="#">社区</a></li>
-        </ul>
-    </header>
-    <!-- banner start -->
-    <div class="banner main">
-        
-            <ul class="bannerImg clearfix">
-                <li><a href="#"><img src="img/banner01.jpg" alt=""></a></li>
-                <li><a href="#"><img src="img/bannero2.jpg" alt=""></a></li>
-                <li><a href="#"><img src="img/banner03.jpg" alt=""></a></li>
-                <li><a href="#"><img src="img/banner04.jpg" alt=""></a></li>
-            </ul>
-        <ul class="bannerDot">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-        <ul class="bannerLeft">
-            <li>
-                <span>手机 电话卡</span>
-                <div>内容1</div>
-            </li>
-            <li>
-                <span>电视 盒子</span>
-                <div>内容2</div>
-            </li>
-            <li>
-                <span>笔记本 平板</span>
-                <div>内容3</div>
-            </li>
-            <li>
-                <span>家电 插线板</span>
-                <div>内容4</div>
-            </li>
-            <li>
-                <span>出行 穿戴</span>
-                <div>内容5</div>
-            </li>
-            <li>
-                <span>智能 路由器</span>
-                <div>内容6</div>
-            </li>
-            <li>
-                <span>电源 配件</span>
-                <div>内容7</div>
-            </li>
-            <li>
-                <span>健康 儿童</span>
-                <div>内容8</div>
-            </li>
-            <li>
-                <span>耳机 音响</span>
-                <div>内容9</div>
-            </li>
-            <li>
-                <span>生活 包箱</span>
-                <div>内容10</div>
-            </li>
-        </ul>
-    </div>
-    <!-- banner end -->
-    
-
-    <!-- cont start -->
-    <div class="cont main clearfix">
-        <h3><a href="#">查看全部</a>手机</h3>
-        <img class="contLeft" src="img/sj1.jpg" alt="">
-        <ul class="contRight"> 
-            <li>
-                <a href="#">
-                    <span class="js">新品</span>
-                    <img src="img/sj2.jpg" alt="">
-                    <h4>小米9 6GB+128GB</h4>
-                    <p>骁龙855，索尼4800万超广角微距三摄</p>
-                    <p class="price"><span class="nowPrice">2799元</span>
-                        <span class="oldPrice">2999元</span>
-                    </p>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    
-                    
-                    <img src="img/sj3.jpg" alt="">
-                    <h4>小米9 6GB+128GB</h4>
-                    <p>磁动力滑盖全面屏 / 四曲面陶瓷机身</p>
-                    <p class="price"><span class="nowPrice">3299元</span>
-                        
-                    </p>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    
-                    <img src="img/sj4.jpg" alt="">
-                    <h4>小米9 6GB+128GB</h4>
-                    <p>6GB+128GB大存储，索尼4800万拍照</p>
-                    <p class="price"><span class="nowPrice">1599元</span>
-                        
-                    </p>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <span class="tips">秒杀</span>
-                    <img src="img/sj5.png" alt="">
-                    <h4>小米9 6GB+128GB</h4>
-                    <p>八核高性能处理器，后置1200万AI双摄</p>
-                    <p class="price"><span class="nowPrice">749元</span>
-                        <span class="oldPrice">999元</span>
-                    </p>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <span class="tips">秒杀</span>
-                    <img src="img/sj6.png" alt="">
-                    <h4>小米9 6GB+128GB</h4>
-                    <p>全球首款压感屏幕指纹 骁龙845处理器</p>
-                    <p class="price"><span class="nowPrice">1999元</span>
-                        <span class="oldPrice">2999元</span>
-                    </p>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <span class="tips">减200元</span>
-                    <img src="img/sj7.jpg" alt="">
-                    <h4>小米9 6GB+128GB</h4>
-                    <p>潮流镜面渐变色，2400万自拍旗舰</p>
-                    <p class="price"><span class="nowPrice">1499元</span>
-                        <span class="oldPrice">1699元</span>
-                    </p>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <span class="tips">秒杀</span>
-                    <img src="img/sj8.jpg" alt="">
-                    <h4>小米9 6GB+128GB</h4>
-                    <p>4800万拍照，4000mAh大电量</p>
-                    <p class="price"><span class="nowPrice">1299元</span>
-                        <span class="oldPrice">1399元</span>
-                    </p>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    
-                    <img src="img/sj9.jpg" alt="">
-                    <h4>小米9 6GB+128GB</h4>
-                    <p>骁龙855旗舰处理器，索尼4800万超广</p>
-                    <p class="price"><span class="nowPrice">2599元</span>
-                        
-                    </p>
-                </a>
-            </li>
-        </ul>
-    </div>
-    <!-- cont end -->
-    <!-- jieshao star -->
-    <div class="service clearfix main">
-        <ul class="list ">
-            <li><a href="#">7天无理由退货</a></li>
-            <li><a href="#">15天免费换货</a></li>
-            <li><a href="#">预约维修服务</a></li>
-            <li><a href="#">满150包邮</a></li>
-            <li><a href="#">520余家售后网点</a></li>
-         </ul>
-    </div>
-    <div class="footer clearfix main">
-         <dl class="col-links">
-             <dt>帮助中心</dt>
-             <dd><a href="#">账户管理</a></dd>
-             <dd><a href="#">购物指南</a></dd>
-             <dd><a href="#">订单操作</a></dd>
-         </dl>
-         <dl class="col-links">
-             <dt>服务支持</dt>
-             <dd><a href="#">售后政策</a></dd>
-             <dd><a href="#">自助服务</a></dd>
-             <dd><a href="#">相关下载</a></dd>
-         </dl>
-         <dl class="col-links">
-             <dt>线下门店</dt>
-             <dd><a href="#">小米之家</a></dd>
-             <dd><a href="#">服务网点</a></dd>
-             <dd><a href="#">授权体验店</a></dd>
-         </dl>
-         <dl class="col-links">
-             <dt>关于小米</dt>
-             <dd><a href="#">了解小米</a></dd>
-             <dd><a href="#">加入小米</a></dd>
-             <dd><a href="#">投资者关系</a></dd>
-         </dl>
-         <dl class="col-links">
-             <dt>关注我们</dt>
-             <dd><a href="#">新浪微博</a></dd>
-             <dd><a href="#">官方微信</a></dd>
-             <dd><a href="#">联系我们</a></dd>
-         </dl>
-         <dl class="col-links">
-             <dt>服务特色</dt>
-             <dd><a href="#">F码通道</a></dd>
-             <dd><a href="#">礼物码</a></dd>
-             <dd><a href="#">防伪查询</a></dd>
-         </dl>
-         <div class="col-contact">
-             <p class="phone">400-100-5678</p>
-             <p>周一至周日8:00-18:00<br>(仅收市话费)</p>
-              <a class="btn" href="#">
-                <i class="iconfont">联系客服</i>
-              </a>
-         </div>
-    </div>
-    <!-- jieshao end -->
-    </div>
-
-</body>
-
-</html>
-                
+    <main class="mainBox" id="MAINBOX">
+        <div class="page1">
+            <img class="ani img01" src="img/pa1-1.png" 
+            swiper-animate-effect="fadeIn"
+            swiper-animate-duration="5s"
+            >
+            <img  class="ani" src="img/pa1-3.png" 
+            swiper-animate-effect="bounceInRight"
+            swiper-animate-duration="4s"
+            >
+            <img  class="ani" src="img/pa1-2.png" 
+            swiper-animate-effect="bounceInRight"
+            swiper-animate-duration="4s"
+            >
+            <span class="ani"
+            swiper-animate-effect="fadeInDown"
+            swiper-animate-duration="5s"
+            >
+            <p>旅行记</p>
+            <p>就这样走走停停</p>
+            <p>穿梭大街小巷</p>
+            <p>寻一段岁月光阴</p>
+            <p>记在心田永不忘</p>
+        </span>
             
+        </div>
+        <div class="page2">
+            <img class="ani img01" src="img/pa1-4.png" 
+            swiper-animate-effect="flipInX"
+            swiper-animate-duration="2s"
+            >
+            <img class="ani img01" src="img/pa1-5.png" 
+            swiper-animate-effect="fadeInUp"
+            swiper-animate-duration="8s"
+            >
+            <span>
+            <p class="ani"
+            swiper-animate-effect="fadeInDown"
+            swiper-animate-delay="1s"
+            swiper-animate-duration="8s"
+            >
+            第一站 东京</p>
+            <p class="ani"
+            swiper-animate-effect="fadeInDown"
+            swiper-animate-delay="3s"
+            swiper-animate-duration="8s"
+            >
+            第二站 大阪</p>
+            <p class="ani"
+            swiper-animate-effect="flip"
+            swiper-animate-delay="4s"
+            swiper-animate-duration="8s"
+            >
+            第三站 冲绳</p>
+           </span>
+        
+        </div>
+        <div class="page3">
+           
+            <img class="ani img01" src="img/fushi.png" 
+                swiper-animate-effect="fadeInDown"
+                swiper-animate-duration="2s"
+             >
+              <img class="ani img01" src="img/TI.png" 
+                swiper-animate-effect="flip"
+                swiper-animate-duration="2s"
+            >  
+            <img class="ani img01" src="img/pa1-5.png" 
+            swiper-animate-effect="heartBeat"
+            swiper-animate-duration="2s"
+        > 
+        <span>
+                <p class="ani"
+                swiper-animate-effect="fadeInDown"
+                swiper-animate-delay="1s"
+                swiper-animate-duration="5s"
+                >
+                第一站 东京</p>
+                <p class="ani"
+                swiper-animate-effect="fadeInDown"
+                swiper-animate-delay="3s"
+                swiper-animate-duration="7s"
+                >
+                生活不只有苟且
+                <ur>还有诗和远方</p>
+                    <p class="ani"
+                    swiper-animate-effect="fadeInDown"
+                    swiper-animate-delay="2s"
+                    swiper-animate-duration="6s">富士山</p>
+                    <p class="ani"
+                    swiper-animate-effect="fadeInDown"
+                    swiper-animate-delay="2s"
+                    swiper-animate-duration="6s">东京铁塔</p>
+        </span>
+        </div>
+        <div class="page4">
+                <img class="ani img01" src="img/dianchuan.png"
+                swiper-animate-effect="fadeInDown"
+                swiper-animate-duration="2s"
+             >
+             <img class="ani img01" src="img/daban.png" 
+                swiper-animate-effect="fadeInUp"
+                swiper-animate-delay="2s"
+                swiper-animate-duration="2s"
+             >
+             <div class="font">
+             <span class="ani"
+                    swiper-animate-effect="fadeInDown"
+                    swiper-animate-delay="1s"
+                    swiper-animate-duration="5s"
+                    >
+                    第二站 大阪
+                </span>
+            <span class="ani"
+                    swiper-animate-effect="fadeInDown"
+                    swiper-animate-delay="2s"
+                    swiper-animate-duration="5s"
+                    >
+                    <p>一个人旅行</p>
+                    <p>不理会繁杂的琐事</p>
+                    <p>自由自在地去体验一座城市</p>
+                    <p>一段故事</p>
+                    <p>留下一片欢笑</p>
+             </span>
+             <span class="ani"
+             swiper-animate-effect="fadeInDown"
+             swiper-animate-delay="3s"
+             swiper-animate-duration="5s"
+             >
+             淀川烟花
+         </span>
+         <span class="ani"
+         swiper-animate-effect="fadeInDown"
+         swiper-animate-delay="3s"
+         swiper-animate-duration="5s"
+         >
+         新梅田城
+     </span>
+              </div>
+              <img class="ani img01" src="img/pa1-5.png" 
+                swiper-animate-effect="bounceInLeft"
+                swiper-animate-delay="3s"
+                swiper-animate-duration="2s"
+             >      
+        </div>
+        <div class="page5">
+                
+             <img class="ani img01" src="img/bianhujia.png" 
+                    swiper-animate-effect="fadeInUp"
+                    swiper-animate-duration="2s"
+                 >
+        <img class="ani img01" src="img/bianhuyu2.png" 
+                swiper-animate-effect="fadeInDown"
+                swiper-animate-duration="2s"
+             >
+             <img class="ani img01" src="img/pa1-5.png" 
+             swiper-animate-effect="fadeInDown"
+             swiper-animate-delay="2s"
+             swiper-animate-duration="2s"
+          > 
+          <div class="font">
+                <span class="ani"
+                       swiper-animate-effect="fadeInDown"
+                       swiper-animate-delay="1s"
+                       swiper-animate-duration="5s"
+                       >
+                       第三站 冲绳
+                   </span> 
+                  
+          <span class="ani"
+                    swiper-animate-effect="fadeInDown"
+                    swiper-animate-delay="4s"
+                    swiper-animate-duration="5s"
+                    >
+                    <p>带上心灵去旅行</p>
+                    <p>以和平的心态看待一切</p>
+                    <p>文画音</p>
+                    <p>看似耳目所为</p>
+                    <p>其实是内心世界的感受</p>
+                    <p>能够以心感悟</p>
+                    <p>以此沉淀</p>
+             </span>
+             <span class="ani"
+             swiper-animate-effect="fadeInUp"
+             swiper-animate-delay="2s"
+             swiper-animate-duration="5s"
+             >
+             边户岬
+         </span>
+             </div>
+            </div>
+        <div class="page6">
+                <img class="ani img01" src="img/pa6-3.png" 
+                swiper-animate-effect="fadeInUp"
+                swiper-animate-duration="2s"
+             >
+             <img class="ani img01" src="img/pa6-4.png" 
+                swiper-animate-effect="fadeInUp"
+                swiper-animate-duration="2s"
+             >
+             <img class="ani img01" src="img/pa5-3.png" 
+                swiper-animate-effect="bounceInLeft"
+                swiper-animate-duration="2s"
+             >
+             <img class="ani img01" src="img/pa1-5.png" 
+                swiper-animate-effect="bounceInLeft"
+                swiper-animate-duration="2s"
+             >
+             <img class="ani img01" src="img/zi.png" 
+                swiper-animate-effect="bounceInRight"
+                swiper-animate-delay="3s"
+                swiper-animate-duration="5s"
+             >
+             <span class="ani"
+            swiper-animate-effect="fadeInDown"
+            swiper-animate-duration="3s"
+            >
+            <p>一辈子是场修行</p>
+            <p>短的是旅途，</p>
+            <p>长的是人生。</p>
+            <p>旅行，</p>
+            <p>能让你遇到那个更好的自己。</p>
+            
+        </span>
+        </div>>
+    </main>
+  <script src="js/main.main.js"></script>
+  <script src="js/rem.js"></script> 
+  <script src="js/runtime.js"></script> 
+</body>
+</html>

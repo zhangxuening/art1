@@ -30,13 +30,13 @@
 	width: .89rem;
 	height: 1.53rem;
 	top: 4rem;
-	right: 0;
+	right: .2rem;
 }
 
 .page1 img:nth-of-type(3) {
 	width: 0.57rem;
 	height: 1.24rem;
-	right: 0;
+	right: .2rem;
 	top: 4.1rem;
 }
 .page1 span{
@@ -110,21 +110,21 @@
 	position: absolute;
 }
 .page3 img:nth-of-type(1){
-	width: 2.7rem;
-	height: 4rem;
-	bottom: .1rem;
-	right:.1rem;
+	width: 3.8rem;
+	height:3.5rem;
+	bottom: 0;
+	 right: 0; 
 }
 .page3 img:nth-of-type(2){
-	width: 1.8rem;
-	height: 3rem;
-	top: .5rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	top: .2rem;
 	left: .1rem;
 }
 .page3 img:nth-of-type(3){
 	width: .79rem;
 	height: 2rem;
-	bottom: .7rem;
+	top:  .7rem;
 	left: .1rem;
 }
 .page3 span p:nth-of-type(1){
@@ -136,9 +136,23 @@
 }
 .page3 span p:nth-of-type(2){
 	position: absolute;
-	top: 1.5rem;
-	right: .15rem;
-	font-size: .12rem;
+	top: 2.9rem;
+	right: .8rem;
+	font-size: .14rem;
+}
+.page3 span p:nth-of-type(3){
+	position: absolute;
+	top: 3.4rem;
+	right: 1rem;
+	font-size: .13rem;
+	color: #45b897;
+}
+.page3 span p:nth-of-type(4){
+	position: absolute;
+	top: .3rem;
+	right: 2.5rem;
+	font-size: .13rem;
+	color: #45b897;
 }
 /* PAGE4 */
 .page4 {
@@ -153,16 +167,16 @@
 }
 
 .page4 img:nth-of-type(1) {
-	width: 1.5rem;
-	height:1.5rem;
-	right: .2rem;
-	top: 1.5rem;
-	border-radius: .9rem;
+	width: 2.2rem;
+	height:2.2rem;
+	right: 0;
+	top: 1.3rem;
+	border-radius: 1rem;
 }
 .page4 img:nth-of-type(2) {
-	width: 3.6rem;
+	width: 3.8rem;
 	height:3rem;
-	left: .08rem;
+	left: 0;
 	bottom: .1rem;
 	
 }
@@ -179,12 +193,28 @@
 	color: #255c4c;
 	top:1.1rem;
 	left: .1rem;
-	font-size: .15rem;
+	font-size: .11rem;
 	border:2px solid #255c4c;
 	border-radius: .2rem;
-	line-height: .45rem;
+	line-height: .35rem;
 }
-.page4 img:nth-of-type(3) {
+.page4 .font span:nth-of-type(3){
+	position: absolute;
+	color: #255c4c;
+	top:2.8rem;
+	right: .8rem;
+	font-size: .13rem;
+	
+}
+.page4 .font span:nth-of-type(4){
+	position: absolute;
+	color: #255c4c;
+	top:3.8rem;
+	right: 2.2rem;
+	font-size: .13rem;
+	
+}
+.page4 img:nth-of-type(3){
 		width: .8rem;
 		height:2rem;
 		left: .2rem;
@@ -208,29 +238,29 @@
 }
 
 .page5 img:nth-of-type(1) {
-	width:1.8rem;
-	height: 5rem;
-	top:.5rem;
-	right: .1rem;
+	width:3.8rem;
+	height: 3.5rem;
+	bottom:0;
+	right: 0;
 }
 .page5 img:nth-of-type(2) {
-	width:1.5rem;
-	height: 1.5rem;
-	border-radius: .9rem;
-	top:1.5rem;
-	left: .2rem;
+	width:2rem;
+	height: 2rem;
+	border-radius: 1rem;
+	top:0.9rem;
+	left: 0;
 }
 .page5 img:nth-of-type(3) {
 	background: #e0eff3;
 	width:.5rem;
 	height:2rem;
 	top:3rem;
-	right: .3rem;
+	left: .3rem;
 }
 .page5 .font span:nth-of-type(1){
 	position: absolute;
 	color: #255c4c;
-	top:.7rem;
+	top:.4rem;
 	left: .45rem;
 	font-size: .18rem;
 	border:1px solid #255c4c;
@@ -238,24 +268,73 @@
 }
 .page5 .font span:nth-of-type(2){
 	position: absolute;
-	bottom: .5rem;
-	left: 0; 
+	color: #83dac1;
+	bottom: 2.5rem;
+	right: 0; 
 	font-size: .17rem;
 	line-height: .3rem;
-	border:2px solid #96daf6;
+	/* border:1px solid #96daf6; */
 }
-/* PAGE6 
-.page2 {
-	background: url(img/pa1-4.png) no-repeat;
-	background-size: cover;
+.page5 .font span:nth-of-type(3){
+	position: absolute;
+	color: #71a596;
+	top:1.3rem;
+	left: .8rem;
+	font-size: .13rem;
+	
+	 
+}
+/* PAGE6 */
+.page6 {
+	width: 3.57rem;
+	height:6.67rem; 
+	background: #daeef4;
+	
+	background-size: cover; 
 }
 
-.page2 img {
+.page6 img {
 	position: absolute;
 }
 
-.page2 img:nth-of-type(1) {
-	width: 3.75rem;
-	height: 6.67rem;
+.page6 img:nth-of-type(1) {
+	width:1.5rem;
+	height: 1.5rem;
+	border-radius: .9rem;
+	top:1.5rem;
+	left: .2rem;
+}
+.page6 img:nth-of-type(2) {
+	width:1.8rem;
+	height:4rem;
+	bottom:.2rem;
+	 right: .01rem; 
+}
+.page6 img:nth-of-type(3) {
+	width:1.5rem;
+	height: 1.5rem;
 	
-}*/
+	top:1.1rem;
+	
+}
+.page6 img:nth-of-type(4) {
+	width:.4rem;
+	height: .7rem;
+	top:.2rem;
+	left:.2rem;
+}
+  .page6 img:nth-of-type(5) {
+	width:3.75rem;
+	height: 6.67rem;
+	bottom:0;
+	left:0;
+} 
+.page6 span {
+	position: absolute;
+	top:1rem;
+	line-height: .2rem;
+	right: 0;
+	font-size: .15rem;
+	color: #255c4c;
+
+}
